@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnmEditActivity">
+    <TextView
+        android:id="@+id/idEditAnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/titleAnmEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Edit Patient Registration"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/editNameAnm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Name"
+        app:layout_constraintTop_toBottomOf="@+id/titleAnmEdit" />
+
+    <EditText
+        android:id="@+id/editLNameAnm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Last Name"
+        app:layout_constraintTop_toBottomOf="@+id/editNameAnm" />
+
+    <EditText
+        android:id="@+id/editCCAnm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="# CC"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/editLNameAnm" />
+
+    <EditText
+        android:id="@+id/editEmailAnm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editCCAnm" />
+
+    <Button
+        android:id="@+id/btnEditAnm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="anmEditBtn"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeleteAnm"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/btnDeleteAnm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="anmDeleteBtn"
+        android:text="Delete"
+        android:backgroundTint="#9C0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnEditAnm" />
+
+
+
+    <EditText
+        android:id="@+id/editAnmBornDate"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailAnm"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:hint="Born Date"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        />
+
+    <TextView
+        android:id="@+id/titleGenderAnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Gender?"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnmBornDate" />
+
+    <RadioGroup
+        android:id="@+id/editAnmCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleGenderAnm">
+
+        <RadioButton
+            android:id="@+id/editMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/editFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/editAnmHemLevel"
+        app:layout_constraintTop_toBottomOf="@+id/editAnmCreate"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:hint="Hemoglobin Level"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

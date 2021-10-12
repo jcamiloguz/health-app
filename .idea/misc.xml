@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/drawable/item_border.xml" value="0.3828125" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_anm.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_anm_edit.xml" value="0.33" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_gli.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_gli_exam.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_hem.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_hem_exam.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/anm_activity.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_anm_consult.xml" value="0.22" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_anm_create.xml" value="0.33" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_gli_consult.xml" value="0.1" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_gli_create.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_hem_consult.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_hem_create.xml" value="0.33" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/fragment_hem_exam.xml" value="0.41041666666666665" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/hem_activity.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/list_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/list_item_anm.xml" value="0.33" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/list_item_gli.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/tab_bar.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/tab_bar_anm.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jcami/Documents/dev/healthApp/app/src/main/res/layout/tab_bar_gli.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

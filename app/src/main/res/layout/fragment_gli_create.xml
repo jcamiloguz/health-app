@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createHem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GliCreate"
+
+    >
+
+    <TextView
+        android:id="@+id/titleGliCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Patient Registration"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNameGli"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Name"
+        app:layout_constraintTop_toBottomOf="@+id/titleGliCreate" />
+
+    <EditText
+        android:id="@+id/etLNameGli"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Last Name"
+        app:layout_constraintTop_toBottomOf="@+id/etNameGli" />
+
+    <EditText
+        android:id="@+id/etCCGli"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="# CC"
+        app:layout_constraintTop_toBottomOf="@+id/etLNameGli" />
+
+    <EditText
+        android:id="@+id/etEpsGli"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="EPS"
+        app:layout_constraintTop_toBottomOf="@+id/etCCGli" />
+
+    <Button
+        android:id="@+id/btnCreateGli"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="createHemBtn"
+        android:text="Save"
+        app:layout_constraintTop_toBottomOf="@+id/eTGliBornDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleCheckGli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Have you had any of these symptoms?"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEpsGli" />
+
+
+    <CheckBox
+        android:id="@+id/cBGliCreate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sepsis"
+        app:layout_constraintTop_toBottomOf="@+id/titleCheckGli"
+        />
+
+    <CheckBox
+        android:id="@+id/cBGliCreate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Acute cardiovascular neurological pathologies"
+        app:layout_constraintTop_toBottomOf="@+id/cBGliCreate1"
+        />
+
+    <CheckBox
+        android:id="@+id/cBGliCreate3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signs of dehydration"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cBGliCreate2"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cBGliCreate4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neurovegetativos State"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cBGliCreate3"
+        />
+
+    <CheckBox
+        android:id="@+id/cBGliCreate5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consciousness disorders"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cBGliCreate4"
+        />
+
+
+    <EditText
+        android:id="@+id/eTGliBornDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:ems="10"
+        android:hint="Born Date"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBGliCreate5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
